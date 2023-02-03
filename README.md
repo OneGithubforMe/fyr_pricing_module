@@ -7,5 +7,5 @@
 4. Run `python manage.py makemigrations` and `python manage.py migrate` to create the tables in the database.
 5. Run `python manage.py createsuperuser` and project the superuser details so that superuser can login to the admin panel.
 6. Run `python manage.py runserver` to run the server.
-7. Go to admin panel and put pricing calculation data which required to calculate the pricing in the respecitive tables(Distance additional prices, Time multiplier factors, Distance base pricings).
+7. Go to admin panel(`127.0.0.1:8000/admin/`) and put pricing calculation data which required to calculate the pricing in the respecitive tables(Distance additional prices, Time multiplier factors, Distance base pricings).
 8. Use the GET request on url  `127.0.0.1:8000/pricing/calculate?hour=[hour]&distance=[distance]` to get the calculated price.
